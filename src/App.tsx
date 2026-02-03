@@ -77,9 +77,9 @@ function App() {
         href="https://schedule.robromano.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white/80 hover:text-white text-xs sm:text-sm tracking-[0.15em] mt-18 sm:mt-20 transition-colors duration-300 font-sans"
+        className="text-white/80 hover:text-white text-xs sm:text-sm tracking-[0.15em] mt-18 sm:mt-20 transition-colors duration-300 font-sans underline underline-offset-4 decoration-white/30 hover:decoration-white/70 decoration-[0.5px]"
       >
-        <span className="animate-[fadeIn_1.2s_ease-out_2.1s_both]">Schedule a conversation</span>
+        <span className="animate-[fadeIn_1.2s_ease-out_2.1s_both]">let's talk</span>
       </a>
     </div>
   )
