@@ -49,21 +49,13 @@ function App() {
         </div>
       </div>
 
-      {/* Tagline — Playfair Display Italic, two lines */}
-      <div className="mt-10 sm:mt-14 text-center animate-[fadeIn_1.2s_ease-out_0.8s_both]">
-        <p
-          className="text-white/80 text-lg sm:text-xl md:text-2xl tracking-wide font-normal"
-          style={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}
-        >
-          See yourself clearly.
-        </p>
-        <p
-          className="text-white/80 text-lg sm:text-xl md:text-2xl tracking-wide font-normal mt-1"
-          style={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}
-        >
-          Live your life fully.
-        </p>
-      </div>
+      {/* Tagline — Cormorant Garamond Italic, single line */}
+      <p
+        className="text-white/85 text-xl sm:text-2xl md:text-3xl tracking-wide font-medium mt-10 sm:mt-14 text-center animate-[fadeIn_1.2s_ease-out_0.8s_both]"
+        style={{ fontFamily: "'Cormorant Garamond', serif" }}
+      >
+        See yourself clearly. Live your life fully. Insight is foundational.
+      </p>
 
       {/* Schedule Link — Inter, small, quiet */}
       <a
