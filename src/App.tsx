@@ -9,13 +9,13 @@ const panels = [
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] flex flex-col items-center justify-center px-6 py-12 sm:py-16">
+    <div className="min-h-screen bg-[#0a0a0a] flex flex-col items-center justify-start pt-[12vh] sm:justify-center px-6 pb-8 sm:pt-16 sm:pb-16">
       {/* Site Name — Cormorant Garamond Light, lowercase, luminous */}
       <h1
         className="text-white tracking-[0.12em] sm:tracking-[0.2em] lowercase font-light mb-8 sm:mb-10 max-w-full text-center animate-[fadeIn_1.2s_ease-out]"
         style={{
           fontFamily: "'Cormorant Garamond', serif",
-          fontSize: 'clamp(1.1rem, 5.5vw, 3rem)',
+          fontSize: 'clamp(1.6rem, 7vw, 3rem)',
           textShadow: '0 0 30px rgba(255,255,255,0.2), 0 0 60px rgba(255,255,255,0.06)',
         }}
       >
@@ -23,7 +23,7 @@ function App() {
       </h1>
 
       {/* Subtitle — staggered phrase reveal above filmstrip */}
-      <p className="text-white/80 text-xs sm:text-sm tracking-[0.15em] mb-3 sm:mb-4 font-sans">
+      <p className="text-white/80 text-[8px] sm:text-sm tracking-[0.05em] sm:tracking-[0.15em] mb-3 sm:mb-4 font-sans text-center whitespace-nowrap pl-[0.05em] sm:pl-0">
         <span className="animate-[fadeIn_1s_ease-out_0.4s_both]">four paths below,</span>{' '}
         <span className="animate-[fadeIn_1s_ease-out_1.2s_both]">one foundation,</span>{' '}
         <span className="animate-[fadeIn_1s_ease-out_2s_both]">explore ...</span>
