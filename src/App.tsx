@@ -2,7 +2,7 @@ import filmStrip from './assets/film-strip.jpg'
 
 const panels = [
   { label: 'Psychotherapy', href: 'https://robromano.com/' },
-  { label: 'Coaching', href: 'https://coaching.robromano.com' },
+  { label: 'Coaching', href: 'https://schedule.robromano.com' },
   { label: 'Retreats', href: 'https://retreats.robromano.com' },
   { label: 'YouTube', href: 'https://youtube.robromano.com' },
 ]
