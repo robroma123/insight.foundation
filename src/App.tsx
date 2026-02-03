@@ -20,8 +20,11 @@ function App() {
         <img
           src={filmStrip}
           alt="insight.foundation — Psychotherapy, Coaching, Retreats, YouTube Channel"
-          className="w-full h-auto"
+          className="w-full h-auto block"
         />
+        {/* Bottom border: 1px black gap + 2px white line to mirror the image's top edge */}
+        <div className="h-[1px] bg-black w-full" />
+        <div className="h-[1.5px] bg-white w-full" />
         {/* Clickable overlay grid — 4 equal columns over the image */}
         <div className="absolute inset-0 grid grid-cols-4">
           {panels.map((panel) => (
