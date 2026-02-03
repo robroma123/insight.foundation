@@ -23,7 +23,7 @@ function App() {
 
       {/* Subtitle — staggered phrase reveal above filmstrip */}
       <p className="text-white/80 text-xs sm:text-sm tracking-[0.15em] mb-3 sm:mb-4 font-sans">
-        <span className="animate-[fadeIn_1s_ease-out_0.4s_both]">four paths,</span>{' '}
+        <span className="animate-[fadeIn_1s_ease-out_0.4s_both]">four paths below,</span>{' '}
         <span className="animate-[fadeIn_1s_ease-out_1.2s_both]">one foundation,</span>{' '}
         <span className="animate-[fadeIn_1s_ease-out_2s_both]">explore ...</span>
       </p>
