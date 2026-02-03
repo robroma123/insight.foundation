@@ -24,9 +24,9 @@ function App() {
 
       {/* Subtitle — staggered phrase reveal above filmstrip */}
       <p className="text-white/80 text-xs sm:text-sm tracking-normal sm:tracking-[0.15em] mb-3 sm:mb-4 font-sans text-center whitespace-nowrap">
-        <span className="animate-[fadeIn_1s_ease-out_0.4s_both]">four paths,</span>{' '}
-        <span className="animate-[fadeIn_1s_ease-out_1.2s_both]">one foundation,</span>{' '}
-        <span className="animate-[fadeIn_1s_ease-out_2s_both]">nurture your curiosity ...</span>
+        <span className="animate-[fadeIn_1s_ease-out_1s_both]">four paths,</span>{' '}
+        <span className="animate-[fadeIn_1s_ease-out_2s_both]">one foundation,</span>{' '}
+        <span className="animate-[fadeIn_1s_ease-out_3s_both]">nurture your curiosity ...</span>
       </p>
 
       {/* Filmstrip with Clickable Overlays — fade in second with glow */}
@@ -64,12 +64,14 @@ function App() {
         </div>
       </div>
 
-      {/* Tagline — Cormorant Garamond, single line */}
+      {/* Tagline — Cormorant Garamond, staggered reveal */}
       <p
-        className="text-white/85 text-lg sm:text-2xl md:text-3xl tracking-wide font-medium mt-6 sm:mt-8 text-center max-w-[90vw] animate-[fadeIn_1.2s_ease-out_0.8s_both]"
+        className="text-white/85 text-lg sm:text-2xl md:text-3xl tracking-wide font-medium mt-6 sm:mt-8 text-center max-w-[90vw]"
         style={{ fontFamily: "'Cormorant Garamond', serif" }}
       >
-        Clarity emerges. Life deepens. Insight sustains.
+        <span className="animate-[fadeIn_1s_ease-out_4s_both]">Clarity emerges.</span>{' '}
+        <span className="animate-[fadeIn_1s_ease-out_5s_both]">Life deepens.</span>{' '}
+        <span className="animate-[fadeIn_1s_ease-out_6s_both]">Insight sustains.</span>
       </p>
 
       {/* Schedule Link — symmetrical with caption above */}
@@ -79,7 +81,7 @@ function App() {
         rel="noopener noreferrer"
         className="text-white/80 hover:text-white text-xs sm:text-sm tracking-[0.15em] mt-18 sm:mt-20 transition-colors duration-300 font-sans underline underline-offset-4 decoration-white/30 hover:decoration-white/70 decoration-[0.5px]"
       >
-        <span className="animate-[fadeIn_1.2s_ease-out_2.1s_both]">let's talk</span>
+        <span className="animate-[fadeIn_1.2s_ease-out_8s_both]">let's talk</span>
       </a>
     </div>
   )
