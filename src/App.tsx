@@ -50,10 +50,10 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={panel.label}
-              className="group flex items-end justify-center pb-4 transition-all duration-300 hover:bg-black/30"
+              className="group flex items-end justify-center pb-2 sm:pb-4 transition-all duration-300 hover:bg-black/30"
             >
               <span
-                className="text-white/0 group-hover:text-white/90 text-xs sm:text-sm tracking-[0.12em] lowercase transition-all duration-300 font-light"
+                className="text-white/70 sm:text-white/0 group-hover:text-white/90 text-[10px] sm:text-sm tracking-[0.12em] lowercase transition-all duration-300 font-light"
                 style={{ fontFamily: "'Cormorant Garamond', serif" }}
               >
                 {panel.label}
