@@ -69,7 +69,7 @@ function App() {
         className="text-white/85 text-lg sm:text-2xl md:text-3xl tracking-wide font-medium mt-6 sm:mt-8 text-center max-w-[90vw] animate-[fadeIn_1.2s_ease-out_0.8s_both]"
         style={{ fontFamily: "'Cormorant Garamond', serif" }}
       >
-        See yourself clearly. Live your life fully. Insight is foundational.
+        Clarity emerges. Life deepens. Insight sustains.
       </p>
 
       {/* Schedule Link — symmetrical with caption above */}
