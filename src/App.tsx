@@ -12,9 +12,10 @@ function App() {
     <div className="min-h-screen bg-[#0a0a0a] flex flex-col items-center justify-center px-6 py-12 sm:py-16">
       {/* Site Name — Cormorant Garamond Light, lowercase, luminous */}
       <h1
-        className="text-white text-3xl sm:text-4xl md:text-5xl tracking-[0.2em] lowercase font-light mb-8 sm:mb-10 animate-[fadeIn_1.2s_ease-out]"
+        className="text-white tracking-[0.12em] sm:tracking-[0.2em] lowercase font-light mb-8 sm:mb-10 max-w-full text-center animate-[fadeIn_1.2s_ease-out]"
         style={{
           fontFamily: "'Cormorant Garamond', serif",
+          fontSize: 'clamp(1.1rem, 5.5vw, 3rem)',
           textShadow: '0 0 30px rgba(255,255,255,0.2), 0 0 60px rgba(255,255,255,0.06)',
         }}
       >
@@ -65,7 +66,7 @@ function App() {
 
       {/* Tagline — Cormorant Garamond, single line */}
       <p
-        className="text-white/85 text-xl sm:text-2xl md:text-3xl tracking-wide font-medium mt-6 sm:mt-8 text-center animate-[fadeIn_1.2s_ease-out_0.8s_both]"
+        className="text-white/85 text-lg sm:text-2xl md:text-3xl tracking-wide font-medium mt-6 sm:mt-8 text-center max-w-[90vw] animate-[fadeIn_1.2s_ease-out_0.8s_both]"
         style={{ fontFamily: "'Cormorant Garamond', serif" }}
       >
         See yourself clearly. Live your life fully. Insight is foundational.
